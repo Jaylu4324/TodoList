@@ -34,6 +34,9 @@ export default function FormDialog() {
 
     const handleClose = () => {
         setOpen(false);
+         setId('')
+        setData("")
+        setTitle("")
     };
     const handleAdd = () => {
         if (Tid) {
